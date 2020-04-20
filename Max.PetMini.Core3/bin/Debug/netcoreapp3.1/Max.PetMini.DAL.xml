@@ -1,0 +1,951 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Max.PetMini.DAL</name>
+    </assembly>
+    <members>
+        <member name="T:Max.PetMini.DAL.DbConnectionConfig">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.DbConnectionConfig.Master">
+            <summary>
+            主数据库连接字符串
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.DAL.DbConnectionFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.DbConnectionFactory.Master">
+            <summary>
+            主
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.CatList.Id">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Entity.id">
+            <summary>
+            标识列
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Entity.create_at">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Entity.delete_at">
+            <summary>
+            删除时间
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Entity.update_at">
+            <summary>
+            更新时间
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.ZpOrQtStruct.ZP">
+            <summary>
+            自配		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.ZpOrQtStruct.QT">
+            <summary>
+            其它		
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.DAL.Entities.Express.StayOnTopStruct">
+            <summary>
+            是否前台展示枚举
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.StayOnTopStruct.Yes">
+            <summary>
+            显示		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.StayOnTopStruct.No">
+            <summary>
+            不显示		
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.DAL.Entities.Express.IsMultiPackageStruct">
+            <summary>
+            是否支持一票多件		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.IsMultiPackageStruct.No">
+            <summary>
+            否		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.IsMultiPackageStruct.Yes">
+            <summary>
+            是		
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.DAL.Entities.Express.StatusStruct">
+            <summary>
+            状态		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.StatusStruct.Active">
+            <summary>
+            有效		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.StatusStruct.Passive">
+            <summary>
+            无效		
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Entities.Express.StatusStruct.Delete">
+            <summary>
+            删除		
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.ExpressId">
+            <summary>
+            主键Id
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.ExpressCode">
+            <summary>
+            快递公司编码
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.ExpressName">
+            <summary>
+            快递公司名称
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.Remark">
+            <summary>
+            备注
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.CreateUserId">
+            <summary>
+            创建人
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.CreateTime">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.UpdateUserId">
+            <summary>
+            修改人
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.UpdateTime">
+            <summary>
+            修改时间
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.Status">
+            <summary>
+            状态
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Express.IsDisplayOnWeb">
+            <summary>
+            是否前台展示
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Entities.Foo.field">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.DAL.Extensions.SqlBuilderMultiple">
+            <summary>
+            用于多表查询的sql语句创建
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.OrderBy">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Sort">
+            <summary>
+            排序规则
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.QueryColumn">
+            <summary>
+            查询列
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.QuerySql">
+            <summary>
+            用来存放where 后面跟随的sql
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Parameters">
+            <summary>
+            存放动态参数
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Table">
+            <summary>
+            存放from 和where之间的sql
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.#ctor(System.String)">
+            <summary>
+            
+            </summary>
+            <param name="tableName"></param>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.AddColumn(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            添加查询的列
+            </summary>
+            <param name="table">表名</param>
+            <param name="column">列名</param>
+            <param name="query">是否查询此列</param>
+            <param name="alias">别名</param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Sum(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            
+            </summary>
+            <param name="table"></param>
+            <param name="column"></param>
+            <param name="alias"></param>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.AddChildQueryColumn(System.String,System.String,System.Boolean)">
+            <summary>
+            子查询列
+            </summary>
+            <param name="queryString"></param>
+            <param name="alias"></param>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.LeftJoin(System.String,System.String,System.Boolean)">
+            <summary>
+            left join tableName on tableName.id=tableNameOther.tableName_id
+            </summary>
+            <param name="tableName"></param>
+            <param name="on"></param>
+            <param name="isJoin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.RightJoin(System.String,System.String,System.Boolean)">
+            <summary>
+            right join tableName on tableName.id=tableNameOther.tableName_id
+            </summary>
+            <param name="tableName"></param>
+            <param name="on"></param>
+            <param name="isJoin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.InnerJoin(System.String,System.String,System.Boolean)">
+            <summary>
+            inner join tableName on tableName.id = tableNameOther.tableName_id
+            </summary>
+            <param name="tableName"></param>
+            <param name="on"></param>
+            <param name="isJoin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.InnerJoin(System.String,System.String,System.String,System.Boolean)">
+            <summary>
+            inner join tableName on tableName.id = tableNameOther.tableName_id
+            </summary>
+            <param name="slaveTableName"></param>
+            <param name="masterTableField"></param>
+            <param name="slaveTableField"></param>
+            <param name="isJoin"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Equals(System.String,System.String,System.String)">
+            <summary>
+            and tableName.columnName = value
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Equals(System.String,System.String,System.Nullable{System.Decimal})">
+            <summary>
+            and tableName.columnName = value
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Equals(System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            and tableName.columnName = value
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Equals(System.String,System.String,System.Nullable{System.Boolean})">
+            <summary>
+            
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Equals(System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            and tableName.columnName = value
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.ForceNotEquals(System.String,System.String,System.Int64)">
+            <summary>
+            and tableName.columnName != value
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotEquals(System.String,System.String,System.String)">
+            <summary>
+            and tableName.columnName != value (Optional)
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotEquals(System.String,System.String,System.Nullable{System.Decimal})">
+            <summary>
+            and tableName.columnName != value (Optional)
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotEquals(System.String,System.String,System.Nullable{System.Int32})">
+            <summary>
+            and tableName.columnName <![CDATA[<>]]> value (Optional)
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotEquals(System.String,System.String,System.Nullable{System.Boolean})">
+            <summary>
+            and tableName.columnName <![CDATA[<>]]> value (Optional)
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotEquals(System.String,System.String,System.Nullable{System.Int64})">
+            <summary>
+            and tableName.columnName <![CDATA[<>]]> value (Optional)
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Greater(System.String,System.String,System.Nullable{System.DateTime})">
+            <summary>
+            大于
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Less(System.String,System.String,System.Nullable{System.DateTime})">
+            <summary>
+            小于
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.EqualsOr(System.String,System.String,System.Collections.Generic.IList{System.String})">
+            <summary>
+             and ( tableName.columnName = value1 or tableName.columnName = value2)
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Like(System.String,System.String,System.String)">
+            <summary>
+            and tableName.columnName like "%value%"
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.LikeOr(System.String,System.Collections.Generic.IList{System.String},System.String)">
+            <summary>
+            and (tableName.columnName like "%value%" or like "%value2%")
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnNames"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.LikeOr(System.Collections.Generic.IList{System.String},System.String)">
+            <summary>
+            and (columnNames[0] like "%value%" or columnNames[1] like "%value%" )
+            </summary>
+            <param name="columnNames"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotNull(System.String,System.String,System.Boolean)">
+            <summary>
+            and tableName.columnName is not null
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.BetweenDateByDay(System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            and tableName.columnName between beginValue and endValue
+            精确到天进行查询
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="beginValue"></param>
+            <param name="endValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.BetweenDateByAccurate(System.String,System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            精确到时分秒进行查询
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="beginValue"></param>
+            <param name="endValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Between(System.String,System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal})">
+            <summary>
+            and tableName.columnName between beginValue and endValue
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="beginValue"></param>
+            <param name="endValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.Between(System.String,System.Nullable{System.Int32},System.Nullable{System.Int32})">
+            <summary>
+            and (sql) between value and value2
+            </summary>
+            <param name="sql"></param>
+            <param name="beginValue"></param>
+            <param name="endValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.NotIn``1(System.String,System.String,System.Collections.Generic.IList{``0})">
+            <summary>
+            and tableName.columnName in (values[1],values[2])
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.In(System.String,System.String,System.Collections.Generic.IList{System.String})">
+            <summary>
+            and tableName.columnName in (values[1],values[2])
+            </summary>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.In``1(System.String,System.String,System.Collections.Generic.IList{``0})">
+            <summary>
+            and tableName.columnName in (values[1],values[2])
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="tableName"></param>
+            <param name="columnName"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.ToString">
+            <summary>
+            获得where后面的sql，并做了去 and 处理
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.DeleteAtIsNull">
+            <summary>
+            给所有用到的表加上 and table.delete_at is null
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.DeleteAtIsNull(System.String)">
+            <summary>
+            用于补充不确定是否需要DeleteAtIsNull 的表，例如自定义语句
+            </summary>
+            <param name="tableName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderMultiple.GroupBy(System.String,System.String,System.Boolean)">
+            <summary>
+            group by
+            </summary>
+            <param name="table"></param>
+            <param name="cloumn"></param>
+            <param name="groupBy"></param>
+            <returns></returns>
+        </member>
+        <member name="T:Max.PetMini.DAL.Extensions.SqlBuilderSingle">
+            <summary>
+            用于单表查询的sql语句创建
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderSingle.WhereSQL">
+            <summary>
+            用来存放where 后面跟随的sql
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Parameters">
+            <summary>
+            存放动态参数
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Equals(System.String,System.String)">
+            <summary>
+            and columnName = value
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.NotEquals(System.String,System.String)">
+            <summary>
+            and columnName = value
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Equals(System.String,System.Nullable{System.Decimal})">
+            <summary>
+            and columnName = value
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Equals(System.String,System.Nullable{System.Int64})">
+            <summary>
+            and columnName = value
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Equals(System.String,System.Nullable{System.Int32})">
+            <summary>
+            and columnName = value
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Equals(System.String,System.Boolean)">
+            <summary>
+            and columnName = value
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.LessThan(System.String,System.String)">
+            <summary>
+            and columnName &lt; '%value%'
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.GreetThan(System.String,System.String)">
+            <summary>
+            and columnName &gt; '%value%'
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.GreetThanDate(System.String,System.String)">
+            <summary>
+            and columnName::timestamp &gt; '%value%'
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.Like(System.String,System.String)">
+            <summary>
+            and columnName like '%value%'
+            </summary>
+            <param name="columnName"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.LikeOr(System.Collections.Generic.IList{System.String},System.String)">
+            <summary>
+            and (columnNames[0] like '%value%' or columnNames[1] like '%value%' )
+            </summary>
+            <param name="columnNames"></param>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.BetweenDateByDay(System.String,System.Nullable{System.DateTime},System.Nullable{System.DateTime})">
+            <summary>
+            and columnName between beginValue and endValue
+            </summary>
+            <param name="columnName"></param>
+            <param name="beginValue"></param>
+            <param name="endValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.BetweenDateByAccurate(System.String,System.Nullable{System.Decimal},System.Nullable{System.Decimal})">
+            <summary>
+            and columnName between beginValue and endValue
+            </summary>
+            <param name="columnName"></param>
+            <param name="beginValue"></param>
+            <param name="endValue"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.In(System.String,System.Collections.Generic.IEnumerable{System.Int64})">
+            <summary>
+            and columnName in (values[1],values[2])
+            </summary>
+            <param name="columnName"></param>
+            <param name="values"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.SqlBuilderSingle.ToString">
+            <summary>
+            获得where后面的sql
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:Max.PetMini.DAL.Extensions.ViewModelExtensions">
+            <summary>
+            模型拓展
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.DAL.Extensions.ViewModelExtensions.ToViewModel``2(``0,``1@)">
+            <summary>
+            转换DAL视图模型到BLL视图模型
+            </summary>
+            <typeparam name="DALViewModel"></typeparam>
+            <typeparam name="BLLViewModel"></typeparam>
+            <param name="dalViewModel"></param>
+            <param name="bllViewModel"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Max.PetMini.DAL.Models.BootstrapDataGridInput.Page">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Models.BootstrapDataGridInput.Rows">
+            <summary>
+            显示行数
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Models.BootstrapDataGridInput.order">
+            <summary>
+            排序方向
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Models.BootstrapDataGridInput.sort">
+            <summary>
+            排序字段
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.DAL.Models.ViewModel">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Models.ViewModel.Id">
+            <summary>
+            创建ID
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Models.ViewModel.CreateAt">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.ExpressRepository.GetExpressByExpressName(System.String)">
+            <summary>
+            根据快递名称获取快递数据
+            </summary>
+            <param name="expressName">expressName</param>
+            <returns></returns>
+        </member>
+        <member name="T:Max.PetMini.DAL.Repositories.Repository`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="TEntity"></typeparam>
+        </member>
+        <member name="F:Max.PetMini.DAL.Repositories.Repository`1.idWorker">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.DAL.Repositories.Repository`1.dbConnectionFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Repositories.Repository`1.Master">
+            <summary>
+            主库
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.DAL.Repositories.Repository`1.TableName">
+            <summary>
+            表名称
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Insert(`0)">
+            <summary>
+            插入对象
+            </summary>
+            <param name="entity">对象</param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Update(`0)">
+            <summary>
+            更新对象
+            </summary>
+            <param name="entity"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll">
+            <summary>
+            查询所有对象
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll(System.String,System.Object,Max.PetMini.Extension.Models.PageParameter,System.String,System.String)">
+            <summary>
+            根据条件和分页查询所有对象
+            </summary>
+            <param name="whereString">查询语句</param>
+            <param name="parameters">参数</param>
+            <param name="page">分页参数</param>
+            <param name="orderBy">排序字段 default:id </param>
+            <param name="sort">排序方式(asc/desc) default:desc </param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll(System.String,System.String,System.String,System.Object,Max.PetMini.Extension.Models.PageParameter,System.String)">
+            <summary>
+            适用于多表连接查询的方法
+            </summary>
+            <param name="unionTable">TableA inner join TableB on TableA.X = TableB.x</param>
+            <param name="whereString">propertyA = xxx and propertyB = xxx</param>
+            <param name="parameters"></param>
+            <param name="page"></param>
+            <param name="orderBy"></param>
+            <param name="sort"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll``1(System.String,System.String,System.String,System.String,System.Object,Max.PetMini.Extension.Models.PageParameter,System.String)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="queryString"></param>
+            <param name="whereString"></param>
+            <param name="unionTable"></param>
+            <param name="orderBy"></param>
+            <param name="parameters"></param>
+            <param name="page"></param>
+            <param name="sort"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll(Max.PetMini.DAL.Extensions.SqlBuilderMultiple)">
+            <summary>
+            适用于多表的查询,支持SqlBuilderMultiple
+            </summary>
+            <param name="sqlBuilderMultiple"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll``1(Max.PetMini.DAL.Extensions.SqlBuilderMultiple)">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="sqlBuilderMultiple"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetAll(Max.PetMini.DAL.Extensions.SqlBuilderSingle)">
+            <summary>
+            适用于单表的查询,支持SqlBuilderSingle
+            </summary>
+            <param name="sqlBuilderSingle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection(Max.PetMini.Extension.Models.PageParameter)">
+            <summary>
+            获取分页
+            </summary>
+            <param name="page"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection(Max.PetMini.Extension.Models.PageParameter,System.String,System.String,System.String,System.Object,System.String)">
+            <summary>
+            适用于多表查询的分页
+            </summary>
+            <param name="unionTable">TableA inner join TableB on TableA.x = TableB.x</param>
+            <param name="whereString">propertyA = xxx and propertyB = xxx</param>
+            <param name="page"></param>
+            <param name="parameters"></param>
+            <param name="orderBy"></param>
+            <param name="sort"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection``1(Max.PetMini.Extension.Models.PageParameter,System.String,System.String,System.String,System.String,System.Object,System.String)">
+            <summary>
+            适用于多表查询的分页
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="page"></param>
+            <param name="queryString"></param>
+            <param name="whereString"></param>
+            <param name="unionTable"></param>
+            <param name="orderBy"></param>
+            <param name="parameters"></param>
+            <param name="sort"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection(Max.PetMini.Extension.Models.PageParameter,Max.PetMini.DAL.Extensions.SqlBuilderMultiple)">
+            <summary>
+            多表分页方法支持传入sqlbuilder
+            </summary>
+            <param name="page"></param>
+            <param name="sqlBuilderMultiple"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection``1(Max.PetMini.Extension.Models.PageParameter,Max.PetMini.DAL.Extensions.SqlBuilderMultiple)">
+            <summary>
+            多表分页方法支持传入sqlbuilder
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="page"></param>
+            <param name="sqlBuilderMultiple"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection(Max.PetMini.Extension.Models.PageParameter,System.String,System.String,System.Object,System.String)">
+            <summary>
+            带有分页的单表查询结果集
+            </summary>
+            <param name="page">分页参数</param>
+            <param name="whereString">条件语句</param>
+            <param name="parameters">参数</param>
+            <param name="orderBy">排序字段 </param>
+            <param name="sort">排序方式(asc/desc) default:desc </param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetPageCollection(Max.PetMini.Extension.Models.PageParameter,Max.PetMini.DAL.Extensions.SqlBuilderSingle,System.String,System.String)">
+            <summary>
+            单表分页方法支持传入sqlbuilder
+            </summary>
+            <param name="page"></param>
+            <param name="sqlBuilderSingle"></param>
+            <param name="orderBy"></param>
+            <param name="sort"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Count(System.String,System.String,System.Object)">
+            <summary>
+            用于多表的Count
+            </summary>
+            <param name="whereString"></param>
+            <param name="unionTable"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Count(Max.PetMini.DAL.Extensions.SqlBuilderMultiple)">
+            <summary>
+            支出传入SqlBuilderMultiple
+            </summary>
+            <param name="sqlBuilderMultiple"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Count(System.String,System.Object)">
+            <summary>
+            获取对象数量
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Sum(System.String,System.String,System.Object)">
+            <summary>
+            Sum
+            </summary>
+            <param name="sumColumn"></param>
+            <param name="whereString"></param>
+            <param name="parameters"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Count">
+            <summary>
+            
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Count(Max.PetMini.DAL.Extensions.SqlBuilderSingle)">
+            <summary>
+            支出传入SqlBuliderSingle
+            </summary>
+            <param name="sqlBuilderSingle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetTableName(System.Type)">
+            <summary>  
+            获取表名  
+            </summary>  
+            <param name="type"></param>  
+            <returns></returns>  
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,8 @@
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.0\Max.PetMini.DAL.deps.json
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.0\Max.PetMini.DAL.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.0\Max.PetMini.DAL.pdb
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.0\Max.PetMini.DAL.csproj.CoreCompileInputs.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.0\Max.PetMini.DAL.AssemblyInfoInputs.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.0\Max.PetMini.DAL.AssemblyInfo.cs
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.0\Max.PetMini.DAL.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.0\Max.PetMini.DAL.pdb

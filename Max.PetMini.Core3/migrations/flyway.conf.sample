@@ -1,0 +1,5 @@
+# Power By Flyway Community Edition 5.1.4 by Boxfuse
+flyway.url=jdbc:mysql://localhost:3306/database?useUnicode=true&characterEncoding=utf8
+flyway.user=
+flyway.password=
+flyway.locations=filesystem:sql

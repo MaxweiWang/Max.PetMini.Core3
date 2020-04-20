@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Max.PetMini.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:Max.PetMini.WebAPI.Controllers.V1.BaseController">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="F:Max.PetMini.WebAPI.Controllers.V1.BaseController.loggerFactory">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.WebAPI.Controllers.V1.BaseController.logger">
+            <summary>
+            日志
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.WebAPI.Models.MessageModel.Code">
+            <summary>
+            错误码
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.WebAPI.Models.MessageModel.Message">
+            <summary>
+            错误信息
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.WebAPI.Startup.ConfigureConfigurations(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>git 
+            配置文件读取
+            </summary>
+            <param name="services"></param>
+        </member>
+    </members>
+</doc>

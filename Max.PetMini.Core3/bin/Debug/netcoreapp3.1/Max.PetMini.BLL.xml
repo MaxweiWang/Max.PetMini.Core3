@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Max.PetMini.BLL</name>
+    </assembly>
+    <members>
+        <member name="F:Max.PetMini.BLL.Services.Service.session">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.BLL.Services.Service.logger">
+            <summary>
+            日志
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.BLL.Session">
+            <summary>
+            
+            </summary>
+        </member>
+    </members>
+</doc>

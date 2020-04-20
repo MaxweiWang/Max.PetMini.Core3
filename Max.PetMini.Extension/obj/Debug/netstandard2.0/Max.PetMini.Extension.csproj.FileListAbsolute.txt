@@ -1,0 +1,8 @@
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\bin\Debug\netstandard2.0\Max.PetMini.Extension.deps.json
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\bin\Debug\netstandard2.0\Max.PetMini.Extension.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\bin\Debug\netstandard2.0\Max.PetMini.Extension.pdb
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\obj\Debug\netstandard2.0\Max.PetMini.Extension.csproj.CoreCompileInputs.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\obj\Debug\netstandard2.0\Max.PetMini.Extension.AssemblyInfoInputs.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\obj\Debug\netstandard2.0\Max.PetMini.Extension.AssemblyInfo.cs
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\obj\Debug\netstandard2.0\Max.PetMini.Extension.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.Extension\obj\Debug\netstandard2.0\Max.PetMini.Extension.pdb

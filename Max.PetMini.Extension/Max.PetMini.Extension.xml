@@ -1,0 +1,79 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Max.PetMini.Extension</name>
+    </assembly>
+    <members>
+        <member name="M:Max.PetMini.Extension.EnumExtension.ToDescription(System.Enum)">
+            <summary>
+            获取枚举的描述信息
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.Extension.Models.PageCollection`1">
+            <summary>
+            
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageCollection`1.PageNumber">
+            <summary>
+            当前第几页，从1开始
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageCollection`1.TotalCount">
+            <summary>
+            一共多少记录
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageCollection`1.PageSize">
+            <summary>
+            每页记录数
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageCollection`1.PageCount">
+            <summary>
+            一共多少页
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageCollection`1.Collection">
+            <summary>
+            内部包裹的数据
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.Extension.Models.PageParameter">
+            <summary>
+            分页查询
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageParameter.PageSize">
+            <summary>
+            当前页大小
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageParameter.PageNumber">
+            <summary>
+            页码
+            </summary>
+        </member>
+        <member name="P:Max.PetMini.Extension.Models.PageParameter.Offset">
+            <summary>
+            偏移记录数
+            </summary>
+        </member>
+        <member name="T:Max.PetMini.Extension.PageCollectionExtension">
+            <summary>
+            分页模型拓展
+            </summary>
+        </member>
+        <member name="M:Max.PetMini.Extension.PageCollectionExtension.ToPageCollection``2(Max.PetMini.Extension.Models.PageCollection{``0},System.Func{``0,``1})">
+            <summary>
+            将分页包裹住的模型进行转换
+            </summary>
+            <typeparam name="FromType"></typeparam>
+            <typeparam name="ToType"></typeparam>
+            <param name="pageCollection"></param>
+            <param name="convert"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

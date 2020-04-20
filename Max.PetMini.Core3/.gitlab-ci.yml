@@ -1,0 +1,26 @@
+include:
+  - project: 'erp/tools/gitlab-ci-template'
+    ref: master
+    file: '/.gitlab-ci-template-dotnet.yml'
+
+variables:
+  REGISTRY: "registry.cn-shanghai.aliyuncs.com"
+  PROJECT_NAME: "erp-vendor-webapi"
+  PROJECT_PATH: "Colipu.Vendor.WebAPI/Colipu.Vendor.WebAPI.csproj"
+  DEVELOP_BRANCH_REGISTRY_ENVIRONMENT: "clp-dev"
+  STAGING_BRANCH_REGISTRY_ENVIRONMENT: "clp-test"
+  UAT_BRANCH_REGISTRY_ENVIRONMENT: "clp-uat"
+
+deploy develop: 
+  stage: deploy
+  rules: 
+    - if: '$CI_COMMIT_REF_NAME == "develop"'
+  script: 
+    - docker run -d --rm -p 5004:5001 $DEVELOP_IMAGE_NAME:latest
+
+deploy staging: 
+  stage: deploy
+  rules: 
+    - if: '$CI_COMMIT_REF_NAME == "staging"'
+  script: 
+    - curl https://cs.console.aliyun.com/hook/trigger?token=$K8S_TOKEN

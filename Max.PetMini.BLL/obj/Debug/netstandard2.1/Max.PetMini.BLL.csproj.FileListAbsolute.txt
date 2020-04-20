@@ -1,0 +1,17 @@
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.BLL.deps.json
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.BLL.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.csprojAssemblyReference.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.AssemblyInfoInputs.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.AssemblyInfo.cs
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.csproj.CoreCompileInputs.cache
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.BLL.pdb
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.DAL.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.Extension.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.DAL.pdb
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.Extension.pdb
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.csproj.CopyComplete
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.dll
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\obj\Debug\netstandard2.1\Max.PetMini.BLL.pdb
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.BLL.xml
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.DAL.xml
+D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.BLL\bin\Debug\netstandard2.1\Max.PetMini.Extension.xml
