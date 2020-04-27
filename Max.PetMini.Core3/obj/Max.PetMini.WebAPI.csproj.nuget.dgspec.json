@@ -1,23 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj": {}
+    "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj": {
+    "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
+        "projectUniqueName": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
         "projectName": "Max.PetMini.BLL",
-        "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
-        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\obj\\",
+        "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
+        "packagesPath": "C:\\Users\\wangxuewei\\.nuget\\packages\\",
+        "outputPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wangxuewei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -25,16 +26,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://vtfs2013:8099/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj": {
-                "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj"
+              "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj": {
+                "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj"
               },
-              "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
-                "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
+              "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
+                "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
               }
             }
           }
@@ -76,20 +79,21 @@
         }
       }
     },
-    "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj": {
+    "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj",
+        "projectUniqueName": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj",
         "projectName": "Max.PetMini.WebAPI",
-        "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj",
-        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Core3\\obj\\",
+        "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Core3\\Max.PetMini.WebAPI.csproj",
+        "packagesPath": "C:\\Users\\wangxuewei\\.nuget\\packages\\",
+        "outputPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Core3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wangxuewei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -97,16 +101,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://vtfs2013:8099/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj": {
-                "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj"
+              "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj": {
+                "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj"
               },
-              "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
-                "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
+              "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
+                "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
               }
             }
           }
@@ -197,20 +203,21 @@
         }
       }
     },
-    "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj": {
+    "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj",
+        "projectUniqueName": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj",
         "projectName": "Max.PetMini.DAL",
-        "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj",
-        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\obj\\",
+        "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj",
+        "packagesPath": "C:\\Users\\wangxuewei\\.nuget\\packages\\",
+        "outputPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wangxuewei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -218,13 +225,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://vtfs2013:8099/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netstandard2.1": {
             "projectReferences": {
-              "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
-                "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
+              "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
+                "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
               }
             }
           }
@@ -282,20 +291,21 @@
         }
       }
     },
-    "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
+    "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj",
+        "projectUniqueName": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj",
         "projectName": "Max.PetMini.Extension",
-        "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj",
-        "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-        "outputPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\obj\\",
+        "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj",
+        "packagesPath": "C:\\Users\\wangxuewei\\.nuget\\packages\\",
+        "outputPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\wangxuewei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -303,7 +313,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "http://vtfs2013:8099/NuGet": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://www.nuget.org/api/v2/": {}
         },
         "frameworks": {
           "netstandard2.1": {

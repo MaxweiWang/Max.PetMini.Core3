@@ -1,4 +1,5 @@
-﻿using Max.PetMini.DAL.Entities;
+﻿using Max.PetMini.BLL.Models;
+using Max.PetMini.DAL.Entities;
 using Max.PetMini.DAL.Models;
 using Max.PetMini.DAL.Repositories;
 using Max.PetMini.Extension.Exceptions;
@@ -16,9 +17,15 @@ namespace Max.PetMini.BLL.Services
         [Autowired]
         private readonly CatListRepository catListRepository;
 
-        public CatList GetById(int id)
+        /// <summary>
+        /// 通过id来获取
+        /// </summary>
+        /// <param name="id"></param>
+        /// <returns></returns>
+        public CatListModel GetById(int id)
         {
-            return catListRepository.GetById(id);
+            var catlist= catListRepository.GetById(id);
+            return new CatListModel { Id = catlist.Id, Name = catlist.Name, ImageSrc = catlist.ImageSrc, NavigatorUrl = catlist.NavigatorUrl, OpenType = catlist.OpenType };
         }
 
     }

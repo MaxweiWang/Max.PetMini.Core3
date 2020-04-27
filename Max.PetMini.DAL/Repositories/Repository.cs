@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 using System.Linq;
+using System.Reflection;
+using System.Threading.Tasks;
 
 namespace Max.PetMini.DAL.Repositories
 {
@@ -17,6 +19,12 @@ namespace Max.PetMini.DAL.Repositories
     /// <typeparam name="TEntity"></typeparam>
     public abstract class Repository<TEntity> where TEntity : class, new()
     {
+        //protected IDbConnection Connection;
+        //public Repository(IDbConnection dbConnection)
+        //{
+        //    this.Connection = dbConnection;
+        //}
+
         /// <summary>
         /// 
         /// </summary>
@@ -45,6 +53,13 @@ namespace Max.PetMini.DAL.Repositories
         /// 表名称
         /// </summary>
         public string TableName => GetTableName(typeof(TEntity)) ?? typeof(TEntity).Name;
+
+        /// <summary>
+        /// 主键名称
+        /// </summary>
+        protected string PrimaryKeyName => GetPrimaryKeyName(EntityType);
+
+        private Type EntityType => typeof(TEntity);
 
         /// <summary>
         /// 插入对象
@@ -378,7 +393,40 @@ namespace Max.PetMini.DAL.Repositories
             return Count(sqlBuilderSingle.WhereSQL.ToString(), sqlBuilderSingle.Parameters);
         }
 
+        /// <summary>
+        /// 根据Id获取对象
+        /// </summary>
+        /// <param name="primaryKeyValue">Id</param>
+        /// <returns>对象</returns>
+        public virtual async Task<TEntity> FirstOrDefaultAsync(object primaryKeyValue)
+        {
+            string sql = $"select * from [{TableName}] where [{PrimaryKeyName}] = @primaryKeyValue";
+            return await Master.QueryFirstOrDefaultAsync<TEntity>(sql, new { primaryKeyValue });
+        }
 
+        /// <summary>
+        /// 有条件的查询
+        /// </summary>
+        /// <param name="whereCondition"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public virtual async Task<TEntity> FirstOrDefaultAsync(string whereCondition, object param = null)
+        {
+            string sql = $"select * from [{TableName}] where {whereCondition}";
+            return await Master.QueryFirstOrDefaultAsync<TEntity>(sql, param);
+        }
+
+        /// <summary>
+        /// 查询集合
+        /// </summary>
+        /// <param name="whereCondition"></param>
+        /// <param name="param"></param>
+        /// <returns></returns>
+        public virtual async Task<IEnumerable<TEntity>> QueryAsync(string whereCondition, object param = null)
+        {
+            string sql = $"select * from [{TableName}] where {whereCondition}";
+            return await Master.QueryAsync<TEntity>(sql, param);
+        }
 
         /// <summary>  
         /// 获取表名  
@@ -399,6 +447,23 @@ namespace Max.PetMini.DAL.Repositories
                 }
             }
             return tableName;
+        }
+
+        private static string GetPrimaryKeyName(Type type)
+        {
+            foreach (var field in type.GetProperties(BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.DeclaredOnly))
+            {
+                var attributes = field.GetCustomAttributes(true);
+                foreach (var attribute in attributes)
+                {
+                    if (attribute is ExplicitKeyAttribute || attribute is KeyAttribute)
+                    {
+                        return field.Name;
+                    }
+                }
+
+            }
+            throw new ArgumentException("Entity has no primary key.");
         }
 
         private string WhereStringConvert(string whereString)

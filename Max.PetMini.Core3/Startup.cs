@@ -21,8 +21,15 @@ using Snowflake.Core;
 
 namespace Max.PetMini.WebAPI
 {
+    /// <summary>
+    /// 启动
+    /// </summary>
     public class Startup
     {
+        /// <summary>
+        /// 构造函数
+        /// </summary>
+        /// <param name="configuration"></param>
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;

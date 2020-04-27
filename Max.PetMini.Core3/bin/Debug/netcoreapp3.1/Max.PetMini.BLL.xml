@@ -4,6 +4,13 @@
         <name>Max.PetMini.BLL</name>
     </assembly>
     <members>
+        <member name="M:Max.PetMini.BLL.Services.PetTestService.GetById(System.Int32)">
+            <summary>
+            通过id来获取
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
         <member name="F:Max.PetMini.BLL.Services.Service.session">
             <summary>
             

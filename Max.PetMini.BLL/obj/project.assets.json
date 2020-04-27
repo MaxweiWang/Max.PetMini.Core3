@@ -1240,23 +1240,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wangM\\.nuget\\packages\\": {},
+    "C:\\Users\\wangxuewei\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
+      "projectUniqueName": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
       "projectName": "Max.PetMini.BLL",
-      "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
-      "packagesPath": "C:\\Users\\wangM\\.nuget\\packages\\",
-      "outputPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.BLL\\obj\\",
+      "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\Max.PetMini.BLL.csproj",
+      "packagesPath": "C:\\Users\\wangxuewei\\.nuget\\packages\\",
+      "outputPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\wangM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\wangxuewei\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 19.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1264,16 +1265,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "http://vtfs2013:8099/NuGet": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.nuget.org/api/v2/": {}
       },
       "frameworks": {
         "netstandard2.1": {
           "projectReferences": {
-            "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj": {
-              "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj"
+            "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj": {
+              "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.DAL\\Max.PetMini.DAL.csproj"
             },
-            "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
-              "projectPath": "D:\\Project\\WXW\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
+            "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj": {
+              "projectPath": "D:\\max\\Git\\PetMini\\Max.PetMini.Core3\\Max.PetMini.Extension\\Max.PetMini.Extension.csproj"
             }
           }
         }

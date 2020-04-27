@@ -12,3 +12,17 @@ D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.Pe
 D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.pdb
 D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.DAL.xml
 D:\Project\WXW\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.Extension.xml
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.DAL.deps.json
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.DAL.dll
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.DAL.pdb
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.DAL.xml
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.Extension.dll
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.Extension.pdb
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\bin\Debug\netstandard2.1\Max.PetMini.Extension.xml
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.csprojAssemblyReference.cache
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.csproj.CoreCompileInputs.cache
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.AssemblyInfoInputs.cache
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.AssemblyInfo.cs
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.csproj.CopyComplete
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.dll
+D:\max\Git\PetMini\Max.PetMini.Core3\Max.PetMini.DAL\obj\Debug\netstandard2.1\Max.PetMini.DAL.pdb

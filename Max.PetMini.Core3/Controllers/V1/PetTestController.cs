@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Max.PetMini.BLL.Models;
 using Max.PetMini.BLL.Services;
 using Max.PetMini.DAL.Entities;
 using Microsoft.AspNetCore.Http;
@@ -10,16 +11,16 @@ using NAutowired.Core.Attributes;
 
 namespace Max.PetMini.WebAPI.Controllers.V1
 {
-    [Route("[controller]"),ApiController]
+    [Route("api/v1/PetTest"),ApiController]
     public class PetTestController : BaseController
     {
         [Autowired]
         private readonly PetTestService petTestService;
 
-        [HttpGet("")]
-        public CatList GetById()
+        [HttpGet("GetById/{id}")]
+        public CatListModel GetById(int id)
         {
-           var catlist= petTestService.GetById(1);
+           var catlist= petTestService.GetById(id);
             return catlist;
         }
 

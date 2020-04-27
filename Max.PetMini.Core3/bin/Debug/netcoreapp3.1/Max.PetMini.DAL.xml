@@ -746,6 +746,11 @@
             表名称
             </summary>
         </member>
+        <member name="P:Max.PetMini.DAL.Repositories.Repository`1.PrimaryKeyName">
+            <summary>
+            主键名称
+            </summary>
+        </member>
         <member name="M:Max.PetMini.DAL.Repositories.Repository`1.Insert(`0)">
             <summary>
             插入对象
@@ -938,6 +943,29 @@
             支出传入SqlBuliderSingle
             </summary>
             <param name="sqlBuilderSingle"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.FirstOrDefaultAsync(System.Object)">
+            <summary>
+            根据Id获取对象
+            </summary>
+            <param name="primaryKeyValue">Id</param>
+            <returns>对象</returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.FirstOrDefaultAsync(System.String,System.Object)">
+            <summary>
+            有条件的查询
+            </summary>
+            <param name="whereCondition"></param>
+            <param name="param"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Max.PetMini.DAL.Repositories.Repository`1.QueryAsync(System.String,System.Object)">
+            <summary>
+            查询集合
+            </summary>
+            <param name="whereCondition"></param>
+            <param name="param"></param>
             <returns></returns>
         </member>
         <member name="M:Max.PetMini.DAL.Repositories.Repository`1.GetTableName(System.Type)">

@@ -11,13 +11,17 @@ namespace Max.PetMini.DAL
     [Component]
     public class DbConnectionFactory
     {
-
+        //private DbConnectionConfig config { get; set; }
         [Autowired]
         private IOptions<DbConnectionConfig> config { get; set; }
 
         private IDbConnection master;
 
         //private IDbConnection slave;
+        //public DbConnectionFactory(IOptions<DbConnectionConfig> options)
+        //{
+        //    this.config = options.Value;
+        //}
 
 
         /// <summary>
